@@ -1,0 +1,58 @@
+
+/************Secion de Menu***********/
+nav ul{
+	list-style-type: none;
+
+
+}
+ nav li{
+ 	line-height: 1.5em;
+
+}
+nav a{
+ 	color: #fff;
+ 	display: block;
+ 	padding: 1.8em;
+ 	text-decoration: none;
+ 	position: center;
+ 	box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+   overflow:hidden;
+   text-align: center;
+    transition: all 0.25s;
+    width: auto;
+
+  
+
+ }
+
+ nav a:hover{
+ 	background: rgba(0,0,0,0.5);
+ 	transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0.06, 0.43, 0.06);
+ }
+ /*Primer nivel*/
+ nav >ul{
+ 	background-color: #832F95;
+ 	width: 100%;
+ 	overflow: hidden;
+ }
+nav>ul>p{
+  color:#fff;
+  text-align:center;
+  font-size: 50%;
+}
+ nav>ul>li{
+ 	float:left;
+ }
+ 
+ nav>ul>li>ul{
+ 	position:absolute;
+ 	display: none;
+ }
+  nav>ul>li:hover ul{
+ 	display: block;
+ }
+
+ nav>ul>li>ul>li{
+ 	background-color:#832F95;
+ }
